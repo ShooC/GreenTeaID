@@ -134,10 +134,10 @@ async function expired() {
 					users.expired = 0
 					users.limitjoinprem = 0
 					users.limitjoinfree = 0
-					conn.reply(jid, 'hai\nmasa premium kamu sekarang sudah habis.\njika ingin memperpanjang lagi silahkan chat owner.\nterima kasih telah menggunakan bot :)\n' + `owner: @${nomorown}`, null, {
+					conn.reply(jid, 'Haloo\nmasa premium kamu sekarang sudah habis.\njika ingin memperpanjang lagi silahkan chat owner.\nterima kasih telah menggunakan bot :D\n' + `owner: @${nomorown}`, null, {
 						mentions: [nomorown + '@s.whatsapp.net']
 					})
-					resolve(console.log(`masa premium ${name} sudah habis`))
+					resolve(console.log(`Masa premium ${name} sudah habis`))
 				}
 			}
 			if (users.sewa) {
@@ -154,12 +154,12 @@ async function expired() {
 					if (Date.now() >= chats.expired) {
 						chats.grouprental = false
 						chats.expired = 0
-						await conn.reply(id, `masa menetap di ${await conn.getName(id)} sudah habis.\nBot sebentar lagi akan keluar.\nterima kasih telah menggunakan bot kami.\nChat owner kami jika ingin menyewa lagi :)\nowner: @${nomorown}`, null, {
+						await conn.reply(id, `Masa menetap di ${await conn.getName(id)} sudah habis.\nBot sebentar lagi akan keluar.\nterima kasih telah menggunakan bot kami.\nChat owner kami jika ingin menyewa lagi :)\nowner: @${nomorown}`, null, {
 							mentions: [nomorown + '@s.whatsapp.net']
 						})
 						await delay(3000)
 						await conn.groupLeave(id)
-						resolve(console.log(`masa menetap di ${await conn.getName(id)} sudah habis`))
+						resolve(console.log(`Masa menetap di ${await conn.getName(id)} sudah habis`))
 					}
 				}
 			}
