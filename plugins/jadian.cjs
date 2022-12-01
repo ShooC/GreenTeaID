@@ -9,7 +9,7 @@ var handler = async (m, {
 	if (/ku/i.test(command)) orang = m.sender
 	else orang = member[Math.floor(Math.random() * member.length)]
 	var jodoh = member[Math.floor(Math.random() * member.length)]
-	var jawab = `@${orang.replace(/@.+/, '')} ❤️ @${jodoh.replace(/@.+/, '')}`.trim()
+	var jawab = `@${orang.replace(/@.+/, '')} 💓 @${jodoh.replace(/@.+/, '')}`.trim()
 	var mentions = [orang, jodoh]
 	await conn.sendButton(m.chat, jawab, author, null, [
 		[command, usedPrefix + command]
@@ -21,5 +21,6 @@ handler.help = ['jodohin', 'jodohku']
 handler.tags = ['fun']
 handler.command = /^jodoh(in|ku)|jadian$/i
 handler.group = true
+handler.limit = true
 
 module.exports = handler
