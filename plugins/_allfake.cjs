@@ -1,5 +1,3 @@
-//By Papah-Chan
-
 var fs = require ('fs')
 var fetch = require ('node-fetch')
 var moment = require ('moment-timezone')
@@ -54,10 +52,10 @@ handler.all = async function (m) {
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/bot_whangsaf",
+            mediaUrl: "tiktok.com/@greenteabot",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/bot_whangsaf", 
-            title: 'Simple Bot Esm',
+            description: "tiktok.com/@greenteabot", 
+            title: 'Green Tea Bot',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -65,10 +63,10 @@ handler.all = async function (m) {
     } }
 global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Facebook.com/adison_fahri",
+            mediaUrl: "tiktok.com/@greenteabot",
             mediaType: "VIDEO",
-            description: "https://Facebook.com/adison_fahri", 
-            title: 'Simple Bot Esm',
+            description: "tiktok.com/@greenteabot", 
+            title: 'Green Tea Bot',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -136,7 +134,7 @@ global.fakefb = {
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
                            "title": wm, //Kasih namalu 
-                           "description": "Simple Bot Esm", 
+                           "description": "Green Tea Bot", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
                            "retailerId": "Ghost",
@@ -169,7 +167,7 @@ global.fakefb = {
                "groupInviteMessage": {
                    "groupJid": "17608914335-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Kawan Papah-Chan", 
+                   "groupName": "Green Tea Botz", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
