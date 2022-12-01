@@ -229,117 +229,117 @@ var handler = async (m, {
 				text: 'Sekarang Jam ' + time,
 				footer: wm,
 				title: '```' + ucapan() + name + '```\n*' + week + ' - ' + date + '*\n',
-				buttonText: "Click",
+				buttonText: "𝐊𝐋𝐈𝐊",
 				sections: [{
 					title: "List Featured",
 					rows: [{
-							title: "Semua Menu",
+							title: "𝑺𝒆𝒎𝒖𝒂 𝒎𝒆𝒏𝒖",
 							rowId: _p + `? all`
 						},
 						{
-							title: "Games",
+							title: "𝒈𝒂𝒎𝒆 𝒎𝒆𝒏𝒖",
 							rowId: _p + `? game`
 						},
 						{
-							title: "RPG Games",
+							title: "𝒓𝒑𝒈 𝒈𝒂𝒎𝒆",
 							rowId: _p + `? rpg`
 						},
 						{
-							title: "Exp & Limit",
+							title: "𝒆𝒙𝒑 𝒅𝒂𝒏 𝒍𝒊𝒎𝒊𝒕",
 							rowId: _p + `? xp`
 						},
 						{
-							title: "Stickers",
+							title: "𝒔𝒕𝒊𝒌𝒆𝒓",
 							rowId: _p + `? sticker`
 						},
 						{
-							title: "Kerang Ajaib",
+							title: "𝒌𝒆𝒓𝒂𝒏𝒈 𝒂𝒋𝒂𝒊𝒃",
 							rowId: _p + `? kerang`
 						},
 						{
-							title: "Primbon Jawa",
+							title: "𝑷𝒓𝒊𝒎𝒃𝒐𝒏 𝒋𝒂𝒘𝒂",
 							rowId: _p + `? primbon`
 						},
 						{
-							title: "Text Maker",
+							title: "𝑻𝒆𝒙𝒕 𝒎𝒂𝒌𝒆𝒓",
 							rowId: _p + `? textmaker`
 						},
 						{
-							title: "Image Maker",
+							title: "𝑰𝒎𝒂𝒈𝒆 𝒎𝒂𝒌𝒆𝒓",
 							rowId: _p + `? imagemaker`
 						},
 						{
-							title: "Groups",
+							title: "𝑮𝒓𝒐𝒖𝒑 𝒎𝒆𝒏𝒖",
 							rowId: _p + `? group`
 						},
 						{
-							title: "Premium",
+							title: "𝑷𝒓𝒆𝒎𝒊𝒖𝒎 𝒎𝒆𝒏𝒖",
 							rowId: _p + `? premium`
 						},
 						{
-							title: "Internet",
+							title: "𝑰𝒏𝒕𝒆𝒓𝒏𝒆𝒕 𝒎𝒆𝒏𝒖",
 							rowId: _p + `? internet`
 						},
 						{
-							title: "Anonymous Chat",
+							title: "𝑨𝒏𝒐𝒏 𝒄𝒉𝒂𝒕",
 							rowId: _p + `? anonymous`
 						},
 						{
-							title: "Downloader",
+							title: "𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒓",
 							rowId: _p + `? downloader`
 						},
 						{
-							title: "Tools",
+							title: "𝑻𝒐𝒐𝒍𝒔",
 							rowId: _p + `? tools`
 						},
 						{
-                                                        title: "Wattpadz",
+                                                        title: "𝑾𝒂𝒕𝒕𝒑𝒂𝒅𝒛",
 							rowId: _p + `? wattpadz`
 						},
 						{
-							title: "Anime",
+							title: "𝑾𝒊𝒃𝒖 𝒎𝒆𝒏𝒖",
 							rowId: _p + `? anime`
 						},
 						{
-                                                        title: "Audio",
+                                                        title: "𝒂𝒖𝒅𝒊𝒐",
 							rowId: _p + `? audio`
 						},
 						{
-							title: "Database",
+							title: "𝒅𝒂𝒕𝒂𝒃𝒂𝒔𝒆",
 							rowId: _p + `? database`
 						},
 						{
-							title: "Owner",
+							title: "𝒄𝒓𝒆𝒂𝒕𝒐𝒓 𝒎𝒆𝒏𝒖",
 							rowId: _p + `? owner`
 						},
 						{
-							title: "Jadian",
+							title: "𝒋𝒂𝒅𝒊𝒂𝒏",
 							rowId: _p + `? jadian`
 						},
 						{
-							title: "Tanpa Kategori",
+							title: "𝒕𝒂𝒏𝒑𝒂 𝒌𝒂𝒕𝒆𝒈𝒐𝒓𝒊",
 							rowId: _p + `? noktg`
 						},
 					        {
-							title: "Random Sound",
+							title: "𝒓𝒂𝒏𝒅𝒐𝒎 𝒔𝒐𝒖𝒏𝒅",
 							rowId: _p + `? random`
 						},
 						{
-							title: "War",
+							title: "𝒘𝒂𝒓",
 							rowId: _p + `? war`
 						},
 						{
-							title: "Quran",
+							title: "𝒒𝒖𝒓𝒂𝒏",
 							rowId: _p + `? quran`
 						},
 						{
-							title: "Berita",
+							title: "𝒃𝒆𝒓𝒊𝒕𝒂",
 							rowId: _p + `? berita`
 						}
 					]
 				}]
 			})
-			await delay(20000)
+			await delay(90000)
 			return (await conn.sendMessage(m.chat, {
 				delete: sendMsg.key
 			}))
@@ -406,10 +406,10 @@ var handler = async (m, {
 		}
 		text = await tiny(text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name]))
 		var pp = await conn.profilePictureUrl(conn.user.jid, 'image').catch(_ => './src/avatar_contact.png')
-		conn.sendHydrated(m.chat, text.trim(), 'Bot Papah-Chan', pp, 'https://github.com/FahriAdison', 'Github', null, null, [
-			['Donasi', '/donasi'],
-			['Ping Bot', '/ping'],
-			['Creator', '/owner']
+		conn.sendHydrated(m.chat, text.trim(), '𝘎𝘳𝘦𝘦𝘯 𝘛𝘦𝘢 𝘉𝘰𝘵', pp, 'ɴᴇᴋᴏᴘᴏɪ.ᴄᴀʀᴇ', 'ᴡᴇʙ', null, null, [
+			['𝔡𝔬𝔫𝔞𝔰𝔦', '/donasi'],
+			['𝔭𝔦𝔫𝔤 𝔟𝔬𝔱', '/ping'],
+			['𝔠𝔯𝔢𝔞𝔱𝔬𝔯', '/owner']
 		], false, {
 			asLocation: true
 		})
