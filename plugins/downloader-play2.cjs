@@ -51,8 +51,8 @@ var handler = async (m, {
 		}
 	} catch (e) {}
 	conn.sendFile(m.chat, link, title + '.mp4', `
-*🔥 Title:* ${title}
-*📁 File Size:* ${video.fileSizeH}
+*🍵 Judul:* ${title}
+*📁 Ukuran file:* ${video.fileSizeH}
 `.trim(), m, false, {
 		..._thumb,
 		asDocument: chat.useDocument
