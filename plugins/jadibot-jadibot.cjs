@@ -62,7 +62,7 @@ Scan QR ini untuk jadi bot sementara
 1. Klik titik tiga di pojok kanan atas
 2. Ketuk perangkat tertaut
 3. Scan QR ini 
-
+4. Kalau udh scan tapi blom muncul, ketik #jadibot lagi agar connect
 QR akan Expired !
 `.trim(), m)
 		}
@@ -93,7 +93,7 @@ handler.help = ['jadibot']
 handler.tags = ['jadibot']
 
 handler.command = /^jadibot$/i
-
+handler.private = true
 handler.disabled = true
 handler.limit = true
 
