@@ -10,10 +10,10 @@ async function handler(m, {
 			if (!room) return this.sendButton(m.chat, '_Kamu tidak sedang berada di anonymous chat_', author, null, [
 				['Cari Partner', `.start`]
 			], m)
-			m.reply('Ok')
+			m.reply('Oke')
 			var other = room.other(m.sender)
 			if (other) await this.sendButton(other, '_Partner meninggalkan chat_', author, null, [
-				['Cari Partner', `.start`]
+				['Mulai Anonymous Chat', `.start`]
 			], m)
 			delete this.anonymous[room.id]
 			if (command === 'leave') break
@@ -57,7 +57,6 @@ async function handler(m, {
 handler.help = ['start', 'leave', 'next']
 handler.tags = ['anonymous']
 handler.command = ['start', 'leave', 'next']
-
 handler.private = true
 
 module.exports = handler
